@@ -2,10 +2,11 @@
   "domain": "weekly_film",
   "name": "每周电影",
   "version": "1.0.0",
-  "documentation": "https://github.com/lambilly/weekly_film",
+  "documentation": "https://github.com/lambilly/hass_weekly_film",
   "requirements": ["aiohttp"],
   "dependencies": [],
   "codeowners": ["@lambilly"],
   "config_flow": true,
   "iot_class": "cloud_polling"
+
 }
