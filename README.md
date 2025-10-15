@@ -21,7 +21,7 @@
 2. 在 HACS 中点击「集成」
 3. 点击右下角「+ 浏览并下载存储库」
 4. 搜索「每周电影」或添加自定义存储库：
-   - 存储库：`https://github.com/lambilly/weekly_film`
+   - 存储库：`https://github.com/lambilly/hass_weekly_film`
    - 类别：集成
 5. 下载「每周电影」集成
 6. 重启 Home Assistant
