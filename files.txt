@@ -1,0 +1,8 @@
+custom_components/weekly_film/
+├── __init__.py              # 集成主文件，协调器逻辑
+├── config_flow.py           # 配置流程处理
+├── const.py                 # 常量定义
+├── manifest.json            # 集成元数据
+├── sensor.py                # 传感器实体定义
+└── translations/
+    └── zh-Hans.json         # 中文本地化
