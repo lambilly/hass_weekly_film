@@ -1,0 +1,33 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "配置每周电影",
+        "description": "请输入API密钥。API密钥请到冷言数据免费申请：{api_url}",
+        "data": {
+          "api_key": "API密钥",
+          "scroll_interval": "滚动间隔（秒）"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "无法连接",
+      "invalid_auth": "认证失败",
+      "unknown": "未知错误"
+    },
+    "abort": {
+      "already_configured": "已配置"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "选项",
+        "description": "配置滚动显示间隔",
+        "data": {
+          "scroll_interval": "滚动间隔（秒）"
+        }
+      }
+    }
+  }
+}
