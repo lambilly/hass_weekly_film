@@ -88,3 +88,30 @@ entities:
   - entity: sensor.weekly_film_scrolling
     name: 即将上映
     secondary_info: last-changed
+```
+## 故障排除
+### 常见问题
+1.	API 错误: 检查 API Key 是否正确，确保申请的是「内地即将上映的电影」API
+2.	无数据显示: 确认网络连接正常，API服务可用
+3.	滚动不工作: 检查滚动间隔设置，重启集成
+
+## 日志调试
+如需查看详细日志，在 configuration.yaml 中添加：
+
+```yaml
+logger:
+  default: info
+  logs:
+    custom_components.weekly_film: debug
+```
+## 支持
+如遇问题，请：
+1.	查看 Home Assistant 日志
+2.	确认 API Key 有效
+3.	检查网络连接
+
+## 许可证
+MIT License
+
+## 贡献
+欢迎提交 Issue 和 Pull Request！
