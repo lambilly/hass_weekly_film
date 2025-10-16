@@ -80,7 +80,7 @@
 
 ## 使用示例
 
-### Lovelace 卡片配置
+### Lovelace 卡片配置，需要在HACS安装：Lovelace HTML Jinja2 Template card 卡片
 
 ```yaml
 type: custom:html-template-card
@@ -88,13 +88,13 @@ content: >
   <div style="color: white;"><p align="left"><h3>【🎬每周电影】</h3></p><div
   style="display: flex; align-items: flex-start;"><div style="flex: 0 0 150px;
   margin-right: 15px;"><img src="{{ state_attr('sensor.gun_dong_xian_shi',
-  'picurl') }}" width="150" height="250" style="border-radius: 5px;"></div> <div
+  'picurl') }}" width="150" style="border-radius: 5px;"></div> <div
   style="flex: 1;">
-        影片名称：{{ state_attr('sensor.gun_dong_xian_shi', 'name') }}<br>
-        类　　型：{{ state_attr('sensor.gun_dong_xian_shi', 'type') }}<br>
-        导　　演：{{ state_attr('sensor.gun_dong_xian_shi', 'director') }}<br>
-        演　　员：{{ state_attr('sensor.gun_dong_xian_shi', 'actors') }}<br>
-        上映日期：{{ state_attr('sensor.gun_dong_xian_shi', 'release_date') }}</div></div></div>
+        影片：{{ state_attr('sensor.gun_dong_xian_shi', 'name') }}<br>
+        类型：{{ state_attr('sensor.gun_dong_xian_shi', 'type') }}<br>
+        导演：{{ state_attr('sensor.gun_dong_xian_shi', 'director') }}<br>
+        演员：{{ state_attr('sensor.gun_dong_xian_shi', 'actors') }}<br>
+        上映：{{ state_attr('sensor.gun_dong_xian_shi', 'release_date') }}</div></div></div>
 
 ```
 ## 故障排除
